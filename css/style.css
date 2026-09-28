@@ -1,0 +1,66 @@
+/* Exercitiul 2 */
+
+/* ex 2.1 */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: yellow;
+  color: #000;
+}
+/* ex 2.2 */
+button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #1e3a8a;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+form {
+  width: 100%;
+  padding: 1.5rem;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+}
+input {
+  width: 100%;
+}
+select {
+  width: 100%;
+}
+input:focus,
+select:focus {
+  outline: 2px solid #5b3fd9;
+}
+/* ex 2.3 */
+.destinatii {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+.destinatie:hover {
+  box-shadow:
+    rgb(0, 0, 255) 0px 50px 100px -20px,
+    rgba(0, 204, 255, 0.3) 0px 30px 60px -30px,
+    rgba(0, 128, 255, 0) 0px -2px 6px 0px inset;
+}
+article {
+  margin: 10px;
+  padding: 1.25rem;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+/* ex 2.4 */
+.destinatie-vip {
+  background-color: rgb(55, 230, 12);
+}
